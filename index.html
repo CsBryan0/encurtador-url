@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encurta URL</title>
+    <link rel="shortcut icon" href="./images/link.png">
+
+    <link rel="stylesheet" href="./src/style.css" />
+
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+  </head>
+  <body>
+
+    <div class="box">
+        <h2>
+            Encurtador de URL
+        </h2>
+        
+        <div class="box-input">
+            <input type="text" id="input-url" class="input-url" value="" placeholder="Cole a url aqui">
+            <button onclick="encurtarUrl()">Encurtar</button>
+            <button onclick="copiar()">Copiar</button>
+        </div>
+    </div>
+
+
+    <script src="./src/main.js"></script>
+  </body>
+</html>
